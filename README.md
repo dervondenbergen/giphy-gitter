@@ -1,5 +1,7 @@
 #giphy for gitter
 
+[![Join the chat at https://gitter.im/dervondenbergen/giphy-gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dervondenbergen/giphy-gitter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 get the perfect gif in your gitter activity feed
 
 ## about the bot
