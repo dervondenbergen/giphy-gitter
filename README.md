@@ -19,3 +19,13 @@ This little bot send a gif to a gitter channel of choice, using the unofficial n
 To use the bot, create the file config.js by simply duplicating config.example.js and filling out the fields.
 
 On how you get the values for each field is described in the config file itself.
+
+## How to 
+Start by cloning this project. 
+
+Once the project cloned, open you favorite CLI and follow the instructions :
+
+- `$ cd path/to/giphy-gitter`
+- `$ npm install`
+- `$ node index.js`
+
