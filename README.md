@@ -20,7 +20,7 @@ To use the bot, create the file config.js by simply duplicating config.example.j
 
 On how you get the values for each field is described in the config file itself.
 
-## How to 
+## how to 
 Start by cloning this project. 
 
 Once the project cloned, open you favorite CLI and follow the instructions :
