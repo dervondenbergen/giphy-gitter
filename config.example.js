@@ -7,7 +7,7 @@ var config = {
 
 
     room: {
-      // name of the gitter room, you want to retrieve and sendthe messages
+      // name of the gitter room, you want to retrieve and send the messages
       name: 'bullgit/bombing'
     },
     
