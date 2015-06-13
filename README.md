@@ -16,7 +16,7 @@ This little bot send a gif to a gitter channel of choice, using the unofficial n
 
 ## config
 
-To use the bot, create the file config.js by simply duplicating config.example.js and filling out the fields.
+To use the bot, create the file `config.js` by simply duplicating `config.example.js` and filling out the fields.
 
 On how you get the values for each field is described in the config file itself.
 

@@ -9,7 +9,7 @@ var config = require('./config.js');
 var gitter = new Gitter(config.gitter.token);
 var giphy = new Giphy(config.giphy.apikey);
 
-// gitter room name from config gets joined, to recieve the room id on start
+// gitter room name from config gets joined, to receive the room id on start
 gitter.rooms.join( config.gitter.room.name , function(err, room) {
   
   if (err) {
@@ -50,7 +50,7 @@ function listenToMessages () {
           var user = data.fromUser.username;
           var search = text.replace(config.giphy.regex, '');
           
-          // replace underscores and colons to spaces becuase emojis
+          // replace underscores and colons to spaces because emojis
           search = search.replace(/_|:/g, ' ').trim();
           
           // if there is search text, search after it
