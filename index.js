@@ -65,7 +65,8 @@ function listenToMessages () {
                 
                 var imgurl = image.images.original.url;
                 
-                var feedcontent = 'Here you go @' + user + '\n[![](' + imgurl + ')](' + image.url + ')';
+                var feedcontent =  '@' + user + ' : __'+ search +'__ \n\n[!['+search+'](' + imgurl + ')](' + image.url + ')';
+
                 
                 send(feedcontent, room);
                 
