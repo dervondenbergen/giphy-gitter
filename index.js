@@ -56,7 +56,7 @@ function listenToMessages () {
           // if there is search text, search after it
           if (search) {
           
-            giphy.search({q: search, limit: 100}, function (err, result, res) {
+            giphy.search({q: search, limit: 20}, function (err, result, res) {
               
               // if there are results, send a random one
               if (result.data.length) {
